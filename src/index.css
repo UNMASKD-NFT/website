@@ -1,8 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  font-family: "Press Start 2P", monospace;
+  color: whitesmoke;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "Press Start 2P", monospace;
+  background: rgb(27, 27, 27);
+  background: radial-gradient(
+    circle,
+    rgba(27, 27, 27, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-wide {
+  letter-spacing: 4rem;
+}
+
+.text-big {
+  font-size: 3rem;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buy-button {
+  background: #2563eb;
+  padding: 20px 30px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.buy-button:hover {
+  cursor: pointer;
+  margin-top: 7px;
+  border: 2px solid whitesmoke;
 }

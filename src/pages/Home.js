@@ -2,9 +2,17 @@ import React from "react";
 
 function Home() {
   return (
-    <div>
-      <h1>UNMASKD</h1>
-      <p>800+ generative NFTs</p>
+    <div className="container">
+      <h1 className="text-center text-big">U N M A S K D</h1>
+      <p className="text-center">800+ generative NFTs</p>
+      <button
+        className="buy-button"
+        onClick={() =>
+          window.open("https://opensea.io/collection/unmaskd", "_blank")
+        }
+      >
+        buy now!
+      </button>
     </div>
   );
 }
