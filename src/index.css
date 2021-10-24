@@ -27,7 +27,11 @@ body {
 }
 
 .text-big {
-  font-size: 3rem;
+  font-size: 5vw;
+}
+
+.text-muted {
+  color: rgb(173, 173, 173);
 }
 
 .container {

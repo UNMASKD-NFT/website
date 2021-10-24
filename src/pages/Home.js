@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="container">
       <h1 className="text-center text-big">U N M A S K D</h1>
-      <p className="text-center">800+ generative NFTs</p>
+      <p className="text-center text-muted">800+ random NFTs</p>
       <button
         className="buy-button"
         onClick={() =>
